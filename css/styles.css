@@ -20,6 +20,7 @@
     --accent-text-color: #2196F3;
     --primary-bgc: #2F303A;
     --secondary-bgc: #F5F4FA;
+    --wtite-color: #FFFFFF;
 }
 
 
@@ -117,5 +118,6 @@
 /* Button */
 
 .button {
-    color: var();
+    color: var(--wtite-color);
+    background-color: var(--accent-text-color);
 }
