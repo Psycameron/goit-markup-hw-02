@@ -1,0 +1,121 @@
+/* фирменный синий #2196F3 */
+
+/* фирменный черный #000000 */
+
+/* черный для заголовков  #212121 */
+
+/* белый для заголовков #FFFFFF */
+
+/* основной #757575 */
+
+/* белый прозрачный rgba(255, 255, 255, 0.6); */
+
+/* задник темный #2F303A; */
+
+/* задник серый #F5F4FA; */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-bgc: #2F303A;
+    --secondary-bgc: #F5F4FA;
+}
+
+
+.page {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+/* Списки */
+
+.list {
+    list-style: none;
+}
+
+/* Ссылки */
+
+.link {
+    text-decoration: none;
+}
+
+/* Logo */
+/* добавить фокус и ховер? */
+
+.logo {
+    color: var(--accent-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+} 
+
+.logo-header {
+    color: #000000;
+}
+
+/* Site nav */
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.contacts-nav .link{
+    color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+/* Герой */
+
+.hero-title {
+    color: #FFFFFF;
+    background-color: var(--primary-bgc);
+}
+
+/* Преимущества */
+
+.feature-title {
+    color: var(--title-text-color);
+}
+
+.feature-subtitle {
+    color: var(--title-text-color);
+}
+
+/* Чим ми займаємося */
+
+.work-title {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.team {
+    background-color: var(--secondary-bgc);
+}
+
+.team-title {
+    color: var(--title-text-color);
+}
+
+.team-subtitle {
+    color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+    color: var();
+}
