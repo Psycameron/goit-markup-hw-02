@@ -52,8 +52,12 @@ body {
     text-decoration: none;
 } 
 
-.logo-header {
+.header-logo {
     color: var(--black-color);
+}
+
+.footer-logo {
+    color: var(--wtite-color);
 }
 
 /* Site nav */
