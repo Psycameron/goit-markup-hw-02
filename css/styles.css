@@ -41,7 +41,6 @@ body {
 }
 
 /* Logo */
-/* добавить фокус и ховер? */
 
 .logo {
     color: var(--accent-text-color);
@@ -147,15 +146,16 @@ body {
 
 /* Button */
 
-/* .button {
+.button {
     color: var(--wtite-color);
     background-color: var(--accent-text-color);
-} */
+    font-family: inherit;
+    cursor: pointer;
+}
 
 .button.primary {
     color: var(--wtite-color);
     background-color: var(--accent-text-color);
-    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -164,6 +164,22 @@ body {
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--secondary-bgc);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--title-text-color);
+    background-color: var(--accent-text-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus,
+.button.secondary:active {
+    color: var(--wtite-color);
+    background-color: var(--accent-text-color);
 }
 
 /* Footer */
@@ -186,4 +202,25 @@ body {
     line-height: 1.71;
     font-style: normal;
     text-decoration: none;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+    color: var(--secondary-bgc);
+}
+
+/* Portfolio */
+
+.portfolio-subtitle {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-list .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
 }
