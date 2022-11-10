@@ -117,7 +117,7 @@ body {
     text-align: center;
 }
 
-/* Преимущества */
+/* Feature */
 
 .feature-subtitle {
     color: var(--title-text-color);
@@ -164,4 +164,26 @@ body {
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--secondary-bgc);
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: var(--primary-bgc);
+}
+
+.location-footer {
+    color: var(--wtite-color);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.contact-footer {
+    color: var(--transparent-white);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    text-decoration: none;
 }
